@@ -35,7 +35,7 @@ class ImagesController extends Controller
         $image = $this->images->imageOne($id);
         return view('show', ['imageInView' => $image -> image]);
     }
-
+//ghghgh
 
     function update(Request $request, $id){
         $this -> images -> imageUpdate($id, $request -> image); 
